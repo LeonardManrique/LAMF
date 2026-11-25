@@ -1,8 +1,15 @@
 package laboratoriopolimorfismo;
+
 /**
- *
- * @author Leonard Manrique
+ * Contrato común para cualquier entidad capaz de cantar.
+ * <p>
+ * El polimorfismo se basa en este tipo: el código cliente
+ * trabaja con {@code PuedeCantar} sin conocer la clase concreta.
  */
 public interface PuedeCantar {
-    public void cantar();
+
+    /**
+     * Emite el canto característico de la implementación.
+     */
+    void cantar();
 }

@@ -1,0 +1,15 @@
+# NetBeans / Ant
+/build/
+/dist/
+/nbproject/private/
+*.class
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
